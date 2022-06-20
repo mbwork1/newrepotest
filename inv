@@ -1,0 +1,3 @@
+[webservers]
+4929220fd21c ansible_host=4929220fd21c.mylabserver.com
+4929220fd23c ansible_host=4929220fd23c.mylabserver.com
