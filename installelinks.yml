@@ -1,0 +1,10 @@
+--- #creating user
+- hosts: 4929220fd23c
+  become:
+  tasks:
+    - name: install software
+      yum:
+        name: elinks
+        state: latest
+
+
