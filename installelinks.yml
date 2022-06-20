@@ -1,6 +1,6 @@
 --- #creating user
 - hosts: 4929220fd23c
-  become:
+  become: yes
   tasks:
     - name: install software
       yum:
