@@ -1,5 +1,5 @@
 --- #creating user
-- hosts: 4929220fd23c
+- hosts: webservers
   become: yes
   tasks:
     - name: install software
